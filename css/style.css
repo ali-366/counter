@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/* =============common css end =============*/
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_counter{
+    width: 600px;
+    box-shadow: 0px 0px 5px 0px rgba(5, 5, 5, 0.452);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.text_counter h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    padding: 10px;
+    color: yellowgreen;
+}
+.text_counter textarea{
+    width: 90%;
+    height: 200px;
+    resize: none;
+    outline: none;
+    margin-left: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.text_counter p{
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 10px;
+    color: #496907;
+    display: inline;
+}
+.text_counter p span{
+
+    font-size: 32px;
+    display: inline-block;
+}
+#reamin{
+    font-size: 30px;
+    color: #000;
+}
+.text_counter h4{
+    font-size: 33px;
+    color: #050505;
+    display: inline-block;
+   
+}
